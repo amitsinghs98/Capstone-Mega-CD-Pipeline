@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/praduman8435/Capstone-Mega-CD-Pipeline.git'
+                git branch: 'main', url: 'https://github.com/amitsinghs98/Capstone-Mega-CD-Pipeline.git'
             }  
         }
 
